@@ -36,7 +36,7 @@ void setup() {
   Serial.begin(9600);
   Serial2.begin(9600);
   gpsSerial.begin(9600);
-  myServo.attach(servoPin);
+  // myServo.attach(servoPin); 
 
   lcd.init();
   lcd.backlight();
